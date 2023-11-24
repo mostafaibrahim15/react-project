@@ -1,0 +1,158 @@
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav {
+    width: 100%;
+    background-color: #0C1D4F;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+.top-nav {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #444;
+
+}
+.left{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.left > a{
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: .7rem;
+    color: #fff;
+    position: relative;
+}
+
+
+.left > a i{
+    margin-left: 5px;
+}
+
+.right ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.right ul li {
+    margin-left:20px;
+}
+.right ul li a i,.right ul li a{
+    font-size: .8rem;
+    color:#fff
+}
+.left > a:hover{
+    /* opacity: .8; */
+    color: #BDAB0F;
+}
+.right ul li a i:hover{
+    color: #BDAB0F;
+}
+
+.middle{
+    margin-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.middle .logo h1{
+    font-size: 1.6rem;
+}
+.middle .logo h1 em{
+    color:#BDAB0F
+
+}
+
+.icon {
+    margin-right: 20px;
+    margin-left: 30px;
+    position: relative;
+}
+.icon::after
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left:100%;
+    width: 5px;
+    height: 90%;
+    background-color: #fff;
+    margin-left: 20px;
+}
+.icon a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+.search{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:670px
+}
+.search h1{
+    margin-right:20px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.search form 
+{
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+    
+}
+.search form input
+{
+    height: 40px;
+    width: 650px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+    
+}
+
+.ii{
+    margin-left: 160px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ii i{
+    margin-right: 20px;
+}
+.ii i:hover{
+    color:#BDAB0F;
+    cursor: pointer;
+}
+.block{
+    position: relative;
+}
+.block h1{
+    position: absolute;
+    top:-25px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px groove #000;
+    background-color: #BDAB0F;
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    opacity: .8;
+}
+
